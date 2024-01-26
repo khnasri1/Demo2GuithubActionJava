@@ -14,7 +14,9 @@ on: #  events que vous allez déclencher
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-
+permissions:
+  contents: read
+  checks: write
 jobs:
   build:
 
